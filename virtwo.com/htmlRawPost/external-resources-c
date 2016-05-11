@@ -1,0 +1,36 @@
+<h3 id="post-title">C programming</h3>
+
+<i id="post-date">2011-12-06 00:00</i>
+
+<p id="post-group">Computers</p>
+
+<p id="post-category">Resources</p>
+
+<div id="post-body" >
+
+	<p>C Programming language is one of the oldest programming languages that is still in wide use and hence becomes one with most of the resources available. Next is given a list of resources that would be helpful in C programming.</p>
+	
+	<p><b>Compiler</b></p>
+	<ul>
+		<li><a target="_blank" href="http://gcc.gnu.org/">GCC - GNU</a>: This is a opensource compiler and would be the best if you want start learning C or are interested in developing application for linux or the linux itself.</li>
+		<li><a target="_blank" href="http://www.mingw.org/">MINGW</a>: If you do not like working on Linux, then MINGW will provide you with a simple import of GCC on Windows and would satisfy most of your learning needs.</li>
+	</ul>
+
+	<p><b>Library</b></p>
+	<ul>
+		<li><a target="_blank" href="http://www.gnu.org/software/libc/manual/html_node/index.html">GNU C Library</a>: This will provide you with a complete reference of C and its library and obviously it is applicable best on GCC.</li>
+	</ul>	
+
+	<p><b>Standards</b></p>	
+	<ul>
+		<li><a target="_blank" href="http://www.open-std.org/jtc1/sc22/wg14/www/standards.html">Open-std</a>: This will provide you with a reference of the current C programing language standard. If you are an advanced programmer, this may be of interest to you.</li>
+	</ul>
+		
+		
+	<p><b>Books</b></p>	
+	<ul>
+		<li>"C Unleashed", Richard Heathfield, Lawrence Kirby, Ian Woods, and Steve Summit</li>
+		<li>"C Programming Language", Brian W. Kernighan and Dennis M. Ritchie</li>
+	</ul>	
+	
+</div>

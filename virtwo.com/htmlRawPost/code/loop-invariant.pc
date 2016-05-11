@@ -1,0 +1,18 @@
+ALGORITHM STARTS
+
+    @Input: A loop block
+    
+    @Output: Statement whose value remains constant, computationally, 
+	before, after and through the execution of the loop.
+    
+    * Select all candidates of loop-invariants 
+	(initially all the statements in the loop block).
+    * Filter the statements on the basis of the following definition 
+	of the candidate; a candidate for loop-invariant is a statement, 
+	which is having only constant operands or the definition is out of 
+	reach of the loop body.
+    * Repeat above two statements until a constant condition is reached.
+    * Check if every invariant statement has only one reaching 
+	definition and that definition is in the set marked "invariant".
+
+ALGORITHM ENDS

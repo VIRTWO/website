@@ -1,0 +1,110 @@
+<h3 id="post-title">Computer concepts</h3>
+
+<i id="post-date">2011-12-06 00:00</i>
+
+<p id="post-group">Computers</p>
+
+<p id="post-category">Resources</p>
+
+<div id="post-body" >
+
+	<a class="hidden-anchor" name="start" id="start"></a></p>
+
+	<p>This section provides with a collection of resources specific to a particular area of computer science. These are more of concepts than the implementation but would be highly helpful in long run. Some of the resources listed also provide example implementations, forums, etc. These resources have been categorized into several groups, which are listed below. Before searching these resources make sure that you have searched Wikipedia, since in most of the case it will be able to suffice your need.
+	
+	<ul>
+		<li><a href="#ooadp">Object Oriented Analysis, Design, and Programming</a></li>
+		<li><a href="#os">Operating Systems</a></li>
+		<li><a href="#compnet">Computer Networks</a></li>
+		<li><a href="#np">Network Programming</a></li>
+		<li><a href="#csc">Computer Security and Cryptography</a></li>
+		<li><a href="#dbsa">Database System and Applications</a></li>
+		<li><a href="#swarch">Software Architecture</a></li>
+		<li><a href="#set">Software Engineering and Testing</a></li>
+		<li><a href="#pc">Parallel Computing</a></li>
+	</ul>
+	
+	<p><b>Object Oriented Analysis, Design, and Programming <a class="hidden-anchor" name="ooadp" id="ooadp"></a><a href="#start">^</a></b></p>
+
+	<ul>
+		<li><a href="http://www.uml.org" target="_blank">UML Resource Page</a>: This provides with the complete specification and details of UML.</li>
+		<li><a href="http://www.oodesign.com" target="_blank">OO Design</a>: This discusses various design principles of OOAD.</li>
+	</ul>
+
+	<p><b>Operating Systems <a class="hidden-anchor" name="os" id="os"></a><a href="#start">^</a></b></p>
+
+	<ul>
+		<li><a href="http://www.kernel.org" target="_blank">Kernel.org</a>: Though this provides primarily the impolementation of the Linux Kernel, it cannot be overlooked for learning theoretical concepts as well.</li>
+		<li><a href="http://www.whoishostingthis.com/resources/os-development/" target="_blank">NODOT</a>: This provides an introduction to OS and links to other good articles.</li>
+		<li><a href="http://www.cbi.umn.edu/iterations/haigh.html" target="_blank">Iterations</a>: This is a very good article on histrory of OS.</li>
+		<li><a href="http://www.operating-system.org" target="_blank">Operating-system.org</a>: This is a general knowledge resource about OS.</li>
+		<li><a href="http://www.personal.kent.edu/%7Ermuhamma/OpSystems/os.html" target="_blank">personal.kent.edu</a>: This is a good article covering a lot about OS.</li>
+		<li><a href="http://www.linuxfromscratch.org" target="_blank">Linuxfromscratch.org</a>: This will help in learning how various components of OS are intergrated to make the OS itself.</li>
+		<li><a href="http://www.linuxfromscratch.org" target="_blank">Linuxhq</a>: This provides resources on kernel programming and contains everything one needs to start or do advanced kernel programming.</li>
+	</ul>
+	
+	<p><b>Computer Networks <a class="hidden-anchor" name="compnet" id="compnet"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://www.netfilter.org/documentation/HOWTO/networking-concepts-HOWTO.html" target="_blank">Linux Networking Concepts</a>: This explains various computer networking tasks/concepts related to Linux.</li>
+		<li><a href="http://nsgn.net/osi_reference_model/" target="_blank">Computer Network Protocols</a>: this is an excellant reference for OSI model.</li>
+		<li><a href="https://en.wikipedia.org/wiki/OSI_model" target="_blank">OSI Reference Model</a>: Wikipedia entry on OSI model.</li>
+		<li><a href="http://learn-networking.com/network-design/a-guide-to-network-topology" target="_blank">List of Network Topology</a>: This introduces a number of network topologies.</li>
+		<li><a href="http://vlab.infotech.monash.edu.au/simulations/networks/network-algorithms/" target="_blank">Demostration of Network Algorithms</a>: This link provides a demonstration of several Network Algorithms and briefs about them.</li>
+	</ul>
+
+	<p><b>Network Programming <a class="hidden-anchor" name="np" id="np"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://beej.us/guide/bgnet/output/html/multipage/index.html" target="_blank">Beej's Guide</a>: This provides a quick dive into various practical aspects of network programming.</li>
+		<li><a href="http://www.webtropy.com/" target="_blank">Network Programming in .NET</a>: This provides a good resource for network programmin using .NET.</li>
+		<li><a href="http://java.sun.com/docs/books/tutorial/networking/TOC.html" target="_blank">Network Programming with JAVA</a>: This gives a quick dive into using JAVA for network programming.</li>
+	</ul>
+	
+	<p><b>Computer Security and Cryptography <a class="hidden-anchor" name="csc" id="csc"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="https://www.schneier.com/" target="_blank">Schneier's homepage</a>: Knowledge coming from the master himself.</li>
+		<li><a href="http://williamstallings.com/Crypto3e.html" target="_blank">Links from William Stalling</a>: This provides links to various websites having related resources.</li>
+		<li><a href="http://people.csail.mit.edu/rivest/crypto-security.html" target="_blank">Links from Revest's page from MIT</a>: This provides links to various websites having related resources.</li>
+		<li><a href="http://www.cs.umbc.edu/~eziegl1/compusec.html" target="_blank">Links from UMBC</a>: This provides links to various websites having related resources.</li>
+	</ul>
+	
+	<p><b>Database System and Applications <a class="hidden-anchor" name="dbsa" id="dbsa"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://www.w3schools.com/sql/default.asp" target="_blank">W3 School</a>: Quick introduction to SQL.</li>
+		<li><a href="http://www.sqltutorial.org/" target="_blank">SQL Tutorial</a>: Another quick introduction to SQL.</li>
+		<li><a href="http://www.smart-it-consulting.com/database/progress-database-design-guide/" target="_blank">DB Design</a>: Quick introduction to DB design.</li>
+		<li><a href="https://blog.udemy.com/beginners-guide-to-sql/" target="_blank">A Beginner's Guide to SQL</a>: Another quick inro to DB design (noob friendly).</li>
+	</ul>
+
+	<p>In general I did not find websites that I may call a comprehensive resource on DB Systems &amp; Applications, I would suggest you to read books instead of searching for websites.</p>
+	
+	<p><b>Software Architecture <a class="hidden-anchor" name="swarch" id="swarch"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://www.cs.cmu.edu/afs/cs/project/vit/ftp/pdf/intro_softarch.pdf" target="_blank">cs.cmu.edu</a>: This provides a quick introduction to Software Architecture.</li>
+		<li><a href="http://hydra.infosys.tuwien.ac.at/Staff/zdun/publications/ArchPatterns.pdf" target="_blank">Paper on Architectural Pattern</a>.</li>
+		<li><a href="http://www.bredemeyer.com/" target="_blank">Bredemeyer</a>: Provides some advanced articles on Software Architecture.</li>
+		<li><a href="http://philippe.kruchten.com/architecture/" target="_blank">philippe.kruchten.com</a>: Provides some good aricles on various areas.</li>
+		<li><a href="http://www.hillside.net/patterns/onlinepatterncatalog.htm" target="_blank">Hillside Pattern Catalog</a>: It provides a collection of some interesting articles on patterns. The main site itself is also having a lot of material on patterns.</li>
+	</ul>
+	
+	<p><b>Software Engineering and Testing <a class="hidden-anchor" name="set" id="set"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://www.rspa.com/spi/" target="_blank">Pressman Software Engineering Institute</a>: This provides links to almost every area of software engineering.</li>
+	</ul>	
+	
+	<p><b>Parallel Computing <a class="hidden-anchor" name="pc" id="pc"></a><a href="#start">^</a></b></p>
+	
+	<ul>
+		<li><a href="http://www.acm.org/crossroads/xrds6-1/parallel.html" target="_blank">ACM Article</a>: This article explains about doing parallel computing using Linux.</li>
+		<li><a href="https://www.open-mpi.org/" target="_blank">Open MPI</a>: This website provides articles, tutorials, samples, etc. about Open MPI used for parallel computing.</li>
+		<li><a href="https://computing.llnl.gov/tutorials/parallel_comp/" target="_blank">computing.llnl.gov</a>: This provides a quick introduction to parallel computing.</li>
+		<li><a href="http://www.mcs.anl.gov/%7Eitf/dbpp/" target="_blank">Tutorial by Ian Foster</a>: This provides a dive in to parallel computing related implementation.</li>
+		<li><a href="http://www.new-npac.org/projects/cdroms/cewes-1998-05/copywrite/pcw/book.html" target="_blank">Parallel Computing Works</a>: This resource tells about work done at Caltech Concurrent Computation Program. This is a very useful resource in terms of providing practical insight.</li>
+	</ul>	
+	
+</div>

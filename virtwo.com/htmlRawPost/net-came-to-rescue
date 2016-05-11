@@ -1,0 +1,35 @@
+<h3 id="post-title">.NET came to rescue</h3>
+
+<i id="post-date">2009-04-20 00:00</i>
+
+<p id="post-group">Computers</p>
+
+<p id="post-category">General</p>
+
+<div id="post-body">
+
+    <p>Well before you read the contents further, let me warn you that they may not represent your thoughts, the lines are written by me and have been written without any piece of advice from you, so just do not try to convince me opposite to what I have expressed. Also the things expressed here are not in technical light but more of layman experience so does not get inspired with them without your own judgments.</p>
+
+    <p>Let me start without any more of the introduction thing. I had a number of engagements this week and the course assignments made a major part of that. This is my last semester on the campus and it made me reluctant to work, as probably happens with most of the final semester students. Apart from that I know that courses are supposed to be cleared and one should not take them too lightly after missing several components.</p>
+
+    <p>So, this one of my courses demanded me to make a project. The project was the simplest among the suggested topics and the time span for completion was around twenty days. I and my groupie started doing the project two days back. We were supposed to make some application for mobile devices.</p>
+
+    <p>We started, selected JAVA as the implementation language, NETBEANS the IDE and J2ME the platform. We started with the Dictionary class and landed up soon into troubles. ArrayList was missing, hashing support seemed to be minimal, and every other library we searched for seemed to be lost into the darkness. The darkness was so intense that even with the light of Google we were not able to find any of them.</p>
+
+    <p>Both of us had been coding in standard JAVA previously and had done pretty well. I could all the way see that if the code was to be implemented on J2SE platform, it would take not more than a night. Anyway, sweet thoughts are supposed to be kept with oneself, J2ME was the only option available.</p>
+
+    <p>Time passes, we fiddled for around an hour and our Dictionaryclass was ready. Now it was time to testing. We ran the project and a beautiful mobile emulator opened up and then it shit. I could not type on it using my keyboard, and it would not respond to mouse clicks. It seemed to be a replica of my old phone. Anyway, we started making the GUI for testing and to get hands on the IDE. Life started becoming tougher. Drag-n-drop did not work properly. I had to modify code to make it work. This was all coupled with mysterious IDE. Auto-complete seemed more annoying than helpful and the braces? Why did it type some and left others? I was growing mad and then came the next blockade. I wanted a TextBox and the IDE won't allow me to add one. Organizing Labels, Buttons, etc. seemed just impossible. I don't know why I chose to use an IDE when I had to do it all by my own. NETBEANS is no doubt a brilliant IDE for JAVA. I love it when I coded on J2SE. Well in case of J2ME it all sucked, I don't know it's the language or IDE that pissed in my brain.</p>
+
+    <p>We were both disappointed with the progress we made in three hours. I know if we would have learnt to code in J2ME, it would have been some other story, but that's mine. I do not want to learn and J2ME after using J2SE to know all about the constraints and other rules of the game. I believe the language should have been more or less same in both the case. Anyway, we could have not completed the assignment in time if we had continued working on J2ME.</p>
+
+    <p>Angel shows the way when one actually wants to see the path. I had installed Visual Studio 2008 a few days back on my system. I have been working on .NET for more than two years now. Ironically, it was JAVA I loved a lot before my job made me work on .NET. I opened Visual Studio, a know aura surrounded, and good feelings started coming to me.</p>
+
+    <p>There was a project type on Smart Devices that would run over Windows Mobile OS, the one my phone has. It is good, at least better than the Symbion OS. I like the touch based interface and easy integration with the Vista OS on my laptop.</p>
+
+    <p>We started implementing the same Dictionary class again in .NET and there it was, well within twenty minutes, deployed on the mobile emulator. The knowledge of .NET was more than sufficient to do my job. The Smart device project did not seem alien. Most of the things I use in standard .Net are same. The beautiful IDE, brilliant support, more than easy GUI development, and everything the last moment project would have demanded.</p>
+
+    <p>Well we did have some hiccups in implementing threads, but in the end the issues were worked out. I am thankful to Microsoft for making this wonderful tool without which doing the assignment in time would have been nearly impossible for me. Programming languages are not supposed to prove someone geek, they are just tools and are supposed to be easy to use. This is what .NET probably excels at. I know portability issues are there but for mu kind of person, I am not going back to key-punch phones. A phone resembling my computer, intuitive to use and easy to program is lot better.</p>
+
+    <p>Many people tell me JAVA is good but the question is if I am using Windows for 95% of time and Linux for the rest in daily life, which is true for majority, where does JAVA fits into? On Windows I just love making my applications in .NET, easy and simple. On Linux I love C, powerful and elegant. Well I am not underestimating JAVA and that is the reason I am doing my next assignment in JAVA itself, there it seems to work wonders, but I am trying to just tell my experience, so don't forward you advices in support of JAVA or .NET to me. I know both of them well enough to do my job but yes if you had some similar experience do tell me.</p>
+
+</div>

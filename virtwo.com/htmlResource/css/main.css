@@ -1,0 +1,35 @@
+body {
+	font-size: 16px;
+	line-height: 1.618;
+}
+
+#main a {
+	text-decoration: none;
+}
+
+#main a:hover {
+	text-shadow: 1px 1px 1px;
+}
+
+#post-body a {
+	color: #4CAF50;
+}
+
+a.hidden-anchor {
+    position: relative;
+    top: -90px;
+}
+
+pre.prettyprint {border: none !important;}
+
+.w3-topnav a:hover{color:#4CAF50; text-shadow: 1px 1px 1px;}
+
+@media only screen and (max-width: 641px) {.w3-dropdown-hover{display:block;}}
+
+@media only screen and (max-width: 641px) {.w3-topnav{text-align:center;}}
+
+@media only screen and (max-width: 641px) {.w3-top{position:static;} #main{margin-top:0px !important}}
+
+@media only screen and (max-width: 641px) {.nav-menu-right{float:none;}}
+
+@media only screen and (max-height: 641px) {.w3-bottom{position:relative;} #main{margin-bottom:0px !important}}
