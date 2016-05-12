@@ -1,8 +1,8 @@
 package web.operation;
 
 import static web.common.Constant.DEFAULT_PARTITION_SIZE;
-import static web.common.Constant.HTML_INDEX_PAGE_NAME;
 import static web.common.Constant.HTML_INDEX_FILE_NAME;
+import static web.common.Constant.HTML_INDEX_PAGE_NAME;
 import static web.common.Constant.HTML_POST_LIST_ITEM_TEMPLATE;
 import static web.common.Constant.HTML_POST_LIST_TEMPLATE;
 import static web.common.Constant.METADATA_FILE;
@@ -27,6 +27,12 @@ public class WriteDefaultPostList {
 	}
 
 	public void call(Metadata metadata) throws IOException {
+		String indexFileName = FileNameUtility.getHtmlFileName(OUT_DIR, HTML_INDEX_FILE_NAME.toLowerCase());		
+		if(new File(indexFileName).exists()) {
+			// if index post is present then do not do anything
+			return;
+		}
+		
 		Metadata front = new Metadata();
 		for (Metadatum m : metadata) {
 			if(!m.isInternal()) {
@@ -44,9 +50,8 @@ public class WriteDefaultPostList {
 
 		String oldFileName = FileNameUtility.getHtmlFileName(OUT_DIR,
 				FileNameUtility.getQualifiedFileName(HTML_INDEX_FILE_NAME, HTML_INDEX_PAGE_NAME + "-0"));
-		String newFileName = FileNameUtility.getHtmlFileName(OUT_DIR, HTML_INDEX_FILE_NAME.toLowerCase());
-
-		FileUtils.moveFile(new File(oldFileName), new File(newFileName));
+		
+		FileUtils.moveFile(new File(oldFileName), new File(indexFileName));
 	}
 
 }

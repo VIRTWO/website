@@ -1,0 +1,37 @@
+<h3 id="post-title">Home</h3>
+
+<i id="post-date">2016-05-12 11:17</i>
+
+<p id="post-group">Internal</p>
+
+<p id="post-category">Home</p>
+
+<div id="post-body" >
+
+	<img src="https://photos.smugmug.com/photos/i-k9pz8C6/0/XL/i-k9pz8C6-XL.jpg" style="max-width:100%; width:100%;">
+
+	<p>
+		When I bought this domain I wanted to start a company and name it Virtwo. Well, I never started the company but kept the domain. In case you are 
+		wondering Virtwo stands for Virtual World. I then decided to use this domain to host my blogs and articles but could never let go off the idea of starting a company. 
+		So, I ended up building two websites blog.virtwo.com and learn.virtwo.com and left <a href="index.html">www.virtwo.com</a> as a page under construction. Overtime, 
+		I started taking my hobby of photography seriously and needed a place to host the website and that led to <a target="_blank" href="http://photo.virtwo.com">photo.virtwo.com</a>.
+	</p>
+	
+	<p>
+		Articles and blog idea did not continue for long. I ended up writing few entries and then stopped. Neverthless the websites continued. I kept migrating them from one technology to other, 
+		from Dotclear to Joomla and then to Drupal. Hosted the websites using Drupal for few years and settled on it only to be annoyed by security updates, spams and version upgrades. 
+		With none of the ideas materializing I decided to consolidate the websites into one. So, I deleted the Drupal installation and wrote this websites template 
+		(using <a target="_blank" href="http://www.w3schools.com">W3 Schools</a>) and a simple <a target="_blank" href="https://github.com/VIRTWO/website/archive/master.zip">Static Website Generator</a>. 
+		I left the <a target="_blank" href="http://photo.virtwo.com">photo</a> website running on <a target="_blank" href="https://www.smugmug.com/">smugmug</a> since photo hosting on own could  
+		cause some serious damage to wallet. So here we are with website hosted on AWS S3, with all articles imported and setup done. Next I plan to import poems that I wrote long back and hosted on now 
+		defunct geocities. Upload source code of eulerproject problems I solved, may be write some tutorials, change this homepage to something nicer, may be write some articles, 
+		start a travel photo blog, etc. Well if I end up doing any of these, then you will see this page getting updated otherwise future is still not current. 
+	</p>
+	
+	<p>
+		In case you are wondering what's the image on the top. It is a photo of burnt wood (ash). Most of the websites that I visit tend to have some sort of image at the top, so I decided to put one here.
+		Selecting it was a pain (took 10 seconds). Picked the latest photos I have taken, selected a photo that had a generic subject but still had scope for adding after thoughts. Resized it, tried it 
+		and it looked good and the image ended up on the top. 
+	</p>
+		
+</div>
