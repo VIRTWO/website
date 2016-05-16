@@ -62,7 +62,9 @@
 var title = $('#post-title').text();
 $('#page-title').append(title);
 $('#post-title').addClass('w3-text-green');
-$('#post-date').wrap('<p class="w3-small">&#128344; </p>');
+if(!$('#post-date').hasClass("hidden")) {
+	$('#post-date').wrap('<p class="w3-small">&#128344; </p>');
+}
 $('#post-category').hide();
 $('#post-group').hide();
 			
