@@ -85,10 +85,17 @@ public class PostListByIndexWriter extends PostListWriter {
 		for (Element e : postTitleElements) {
 			e.text(m.getTitle());
 		}
+		
 		Elements postDateElements = document.getElementsByClass("post-date");
 		for (Element e : postDateElements) {
-			e.text(DEFAULT_DATE_FORMAT.format(m.getDate()));
+			if(m.getDate().getTime() > 471188400) {
+				// I could not have written anything before birth so its a sentinal
+				e.text(DEFAULT_DATE_FORMAT.format(m.getDate()));
+			} else {
+				e.text("Don't remember");
+			}
 		}
+		
 		Elements postSnippetElements = document.getElementsByClass("post-snippet");
 		for (Element e : postSnippetElements) {
 			e.html(m.getSnippet());
