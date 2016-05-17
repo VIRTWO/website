@@ -1,16 +1,23 @@
-<h3 id="post-title">Bangalore City</h3>
-<h5><i>(from the roof of a 9th floor apartment)</i></h5>
+<div class="center">
+	
+	<div class="inline left">
 
-<i id="post-date" class="hidden">0000-00-00 00:00</i>
+		<h3 id="post-title">Bangalore City</h3>
 
-<p id="post-group">Poems</p>
+		<h5><i>(from the roof of a 9th floor apartment)</i></h5>
 
-<p id="post-category">About Life</p>
+		<i id="post-date" class="hidden">0000-00-00 00:00</i>
 
-<div id="post-body">
+		<p id="post-group">Poems</p>
 
-	<div class="poem">
-			
+		<p id="post-category">About Life</p>
+
+		<div id="post-body">
+
+			<p class="wrap">I wrote this poem seeing the growing towns and cities and seeing people who are running behind nothing, but the short term goals and feeling happy that they have achieved, but what actually we are heading off at, forgetting about those who are cribbed beside and not even knowing what will happen after the final destiny.</p>
+					
+			<div class="poem">
+					
 			<p>
 			The breeze so smooth,                                    <br />
 			Which flows through eternity,                            <br />
@@ -28,7 +35,7 @@
 			Towers holding the light that are red,                   <br />
 			Very well show the path to flyers by,                    <br />
 			Who cares, below on the road,                            <br />
-			People stumble in mud that’s masks hope.                 <br />
+			People stumble in mud that's masks hope.                 <br />
 			</p>
 
 			<p>
@@ -61,10 +68,10 @@
 			</p>
 			
 			<p>
-			The wind has formed and the breeze’s gone,               <br />
+			The wind has formed and the breeze's gone,               <br />
 			Violence is what that shoves divine,                     <br />
 			Moon has been shadowed,                                  <br />
-			And, the colds’ growing intense,                         <br />
+			And, the colds' growing intense,                         <br />
 			But can they overawe,                                    <br />
 			The air conditioners that boast hot behind,              <br />
 			And, the showers and pool is ace of life.                <br />
@@ -90,8 +97,10 @@
 			Though the end will kiss your head.                      <br />
 			</p>
 		
+			</div>
+			
+		</div>
+		
 	</div>
-
-	<p>I wrote this poem seeing the growing towns and cities and seeing people who are running behind nothing, but the short term goals and feeling happy that they have achieved, but what actually we are heading off at, forgetting about those who are cribbed beside and not even knowing what will happen after the final destiny.</p>
 	
 </div>
