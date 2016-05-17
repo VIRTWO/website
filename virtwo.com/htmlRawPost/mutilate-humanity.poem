@@ -14,7 +14,7 @@
 
 			<div class="poem left">
 
-				<p>
+				<p id="post-snippet">
 				The sun is blind,         <br/>
 				The wind is not mine,     <br/>
 				I stand alone,            <br/>

@@ -12,6 +12,7 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 import web.business.Metadata;
 import web.business.Metadatum;
@@ -49,9 +50,14 @@ public class MetadataExtractor {
 		String group = document.getElementById("post-group").text();
 		String[] categories = document.getElementById("post-category").text().split(",");
 		String body = document.getElementById("post-body").text();
-
+		
 		Metadatum m = new Metadatum(id, title, group, date, body);
 
+		Element snippet = document.getElementById("post-snippet");
+		if(snippet != null) {
+			m.setExplicitSnippet(snippet.html()); 
+		}
+		
 		for (String c : categories) {
 			m.addCategory(c.trim());
 		}

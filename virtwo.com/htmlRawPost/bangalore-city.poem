@@ -18,7 +18,7 @@
 					
 			<div class="poem">
 					
-			<p>
+			<p id="post-snippet">
 			The breeze so smooth,                                    <br />
 			Which flows through eternity,                            <br />
 			Among the leaves that shy,                               <br />

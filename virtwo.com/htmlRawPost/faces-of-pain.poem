@@ -16,7 +16,7 @@
 			
 			<div class="poem left">
 
-			<p>
+			<p id="post-snippet">
 			Cheroot fogged away, 					<br />
 			And, squall washed all pain, 			<br />
 			Leaving me alone, 						<br />

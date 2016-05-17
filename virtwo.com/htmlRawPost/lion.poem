@@ -16,7 +16,7 @@
 		
 			<div class="poem left">
 
-				<p>	
+				<p id="post-snippet">	
 				Silent shouts,                              <br />
 				Ceasing in deep forests,                    <br />
 				And a fear,                                 <br />

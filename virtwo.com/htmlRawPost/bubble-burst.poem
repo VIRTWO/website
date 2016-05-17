@@ -13,7 +13,14 @@
 		<div id="post-body">
 
 			<div class="poem center">
-
+			
+			<p id="post-snippet" class="hidden">
+				Sometimes catching bubbles,      <br />
+				And killing your dreams,         <br />
+				You become secured,              <br />
+				As the angels see!               <br />
+			</p>
+			
 			<p>
 			Sometimes catching bubbles,      <br />
 			And killing your dreams,         <br />

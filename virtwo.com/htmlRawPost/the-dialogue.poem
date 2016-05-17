@@ -16,7 +16,7 @@
 			
 			<div class="poem">
 
-				<p>
+				<p id="post-snippet">
 				I say I saw those emotions,            <br /> 
 				And, I say I swayed those pre-notions, <br />
 				I saw the days of desperation,         <br />

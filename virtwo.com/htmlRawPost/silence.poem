@@ -16,7 +16,7 @@
 					
 			<div class="poem">
 
-				<p>
+				<p id="post-snippet">
 				Silence that is bestowed upon,                <br />
 				All over, the lonely leafs,                   <br />
 				Surround me here all amidst,                  <br />

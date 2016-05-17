@@ -16,6 +16,14 @@
 			
 			<div class="poem center">
 
+			<p id="post-snippet" class="hidden">
+				Glorified!                     <br />
+				Beneath the moonlight,         <br />
+				Stand enlightened,             <br />
+				The vast sky,                  <br />
+				Defeating!                     <br />
+			</p>
+			
 			<p>
 			Glorified!                     <br />
 			Beneath the moonlight,         <br />

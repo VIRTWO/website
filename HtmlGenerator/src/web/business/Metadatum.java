@@ -7,6 +7,8 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.commons.lang3.StringUtils;
+
 import web.common.Constant;
 
 /**
@@ -20,6 +22,7 @@ public class Metadatum {
 	private String group;
 	private Set<String> categories = null;
 	private String snippet = null;
+	private String explicitSnippet = null;
 
 	public Metadatum(String id, String title, String group, Date date, String body) {
 		this(id, title, group, date, body, SNIPPET_LENGTH);
@@ -78,8 +81,15 @@ public class Metadatum {
 		this.categories.remove(category);
 	}
 
+	public void setExplicitSnippet(String snippet) {
+		this.explicitSnippet = snippet;
+	}
+	
 	public String getSnippet() {
-		return snippet;
+		if(StringUtils.isEmpty(explicitSnippet)) {
+			return snippet;
+		}
+		return explicitSnippet;
 	}
 
 	public static Comparator<Metadatum> getDateComparator() {

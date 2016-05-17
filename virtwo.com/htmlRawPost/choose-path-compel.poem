@@ -14,7 +14,7 @@
 			
 			<div class="poem left">
 		
-			<p>
+			<p id="post-snippet">
 			One is worship,           <br />
 			Which you perform,        <br />
 			Neither god nor work,     <br />

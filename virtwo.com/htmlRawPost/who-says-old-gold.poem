@@ -14,7 +14,7 @@
 
 			<div class="poem">
 
-				<p>
+				<p id="post-snippet">
 				Someone of blooming hair,              <br />
 				And of glooming gears,                 <br />
 				Standing alone, hissing sheer,         <br />
