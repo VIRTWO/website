@@ -15,13 +15,20 @@
 			<div class="poem left">
 		
 			<p id="post-snippet">
+				One is worship,           <br />
+				Which you perform,        <br />
+				Neither god nor work,     <br />
+				Compel to worship dawn.   <br />
+			</p>
+			
+			<p>
 			One is worship,           <br />
 			Which you perform,        <br />
 			Neither god nor work,     <br />
 			Compel to worship dawn.   <br />
 			</p>
 
-			<p class="indent4">
+			<p class="poem-indent">
 			Set out to birds,            <br />
 			Set out for guts,            <br />
 			Choose the path you compel,  <br />
@@ -35,7 +42,7 @@
 			To become a gully dear.             <br />
 			</p>
 
-			<p class="indent4">
+			<p class="poem-indent">
 			Life half silent thinking and weeping,  <br />
 			Some is spent in haste,                 <br />
 			Some in deciding future,                <br />
@@ -49,7 +56,7 @@
 			Line in confidence my dear.        <br />
 			</p>
 
-			<p class="indent4">
+			<p class="poem-indent">
 			Some if is to regarded,   <br />
 			Is your parents,          <br />
 			Only friends of fear,     <br />
@@ -63,7 +70,7 @@
 			Compel to worship dawn.  <br />
 			</p>
 
-			<p class="indent4">
+			<p class="poem-indent">
 			Do something different,     <br />
 			Not the same differently,   <br />
 			When the result are same,   <br />

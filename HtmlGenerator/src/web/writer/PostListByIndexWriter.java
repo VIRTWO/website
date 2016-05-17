@@ -16,6 +16,7 @@ import org.jsoup.select.Elements;
 import web.business.Metadata;
 import web.business.MetadataIndex;
 import web.business.Metadatum;
+import web.common.Cleanser;
 import web.common.FileNameUtility;
 
 public class PostListByIndexWriter extends PostListWriter {
@@ -61,6 +62,8 @@ public class PostListByIndexWriter extends PostListWriter {
 			}
 
 			Element postListElement = postListDocument.getElementById("post-list");
+			// add CSS class so that overrides can be done
+			postListElement.addClass("post-list-" + Cleanser.spaceToHyphen(qualifier).toLowerCase());
 
 			for (Metadatum m : currentMetadata) {
 				String itemHtml = getItemHtml(itemTemplateHtml, m);

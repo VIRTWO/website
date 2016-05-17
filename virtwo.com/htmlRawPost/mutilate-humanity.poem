@@ -15,13 +15,20 @@
 			<div class="poem left">
 
 				<p id="post-snippet">
+					The sun is blind,         <br/>
+					The wind is not mine,     <br/>
+					I stand alone,            <br/>
+					Among muster mystifying.  <br/>
+				</p>
+
+				<p>
 				The sun is blind,         <br/>
 				The wind is not mine,     <br/>
 				I stand alone,            <br/>
 				Among muster mystifying.  <br/>
-				</p>
-
-				<p class="indent4">  
+				</p>				
+				
+				<p class="poem-indent">  
 				Who says Shimla is gay,        <br/>
 				Who says Calcutta is to play,  <br/>
 				I bet hell is to say,          <br/>
@@ -35,7 +42,7 @@
 				Is completely absurd.  <br/>
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				One who try to succeed,         <br/>
 				Has to fight alone,             <br/>
 				To gain something,              <br/>
@@ -49,7 +56,7 @@
 				Very rightly the words were misused.  <br/>
 				</p>  
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Killing is a part of life,       <br/>
 				Death is the integrity of guys,  <br/>
 				Punishment is for,               <br/>
@@ -63,7 +70,7 @@
 				Self esteem and prelude in life.   <br/>
 				</p>  
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Stand alone, and mystify,         <br/>
 				Mutilate humanity,                <br/>
 				You are justified,                <br/>

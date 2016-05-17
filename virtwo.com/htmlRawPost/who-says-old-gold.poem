@@ -15,13 +15,20 @@
 			<div class="poem">
 
 				<p id="post-snippet">
+					Someone of blooming hair,              <br />
+					And of glooming gears,                 <br />
+					Standing alone, hissing sheer,         <br />
+					Sees the rattling leaves of fear.      <br />
+				</p>
+				
+				<p>
 				Someone of blooming hair,              <br />
 				And of glooming gears,                 <br />
 				Standing alone, hissing sheer,         <br />
 				Sees the rattling leaves of fear.      <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				The moon is on the very onset,         <br />
 				Freckling leafs gives the rustle,      <br />
 				Very then a tickling begin,            <br />
@@ -35,7 +42,7 @@
 				Hoaxing as trying to groan.            <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				No place is there now to hide,         <br />
 				The bush has also become wet,          <br />
 				The stalls are closed,                 <br />
@@ -49,14 +56,14 @@
 				Closing eyes, he begins to shiver.     <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Very morning the men will see,         <br />
 				Pyramid of cruelty dear,               <br />
 				Who says old is gold?                  <br />
 				Old is thrown through the fold.        <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Waiting for the end,                   <br />
 				Mare waits and closes her eyes,        <br />
 				Into the dreams and terror,            <br />

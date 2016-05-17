@@ -12,11 +12,18 @@
 
 		<div id="post-body">
 
-			<p class="wrap">I wasn't actually able to write what I intended to but yes I defined what I felt, and wrote what I would have written sometimes later.</p>
+			<p class="poem-intro">I wasn't actually able to write what I intended to but yes I defined what I felt, and wrote what I would have written sometimes later.</p>
 					
 			<div class="poem">
 
 				<p id="post-snippet">
+					Silence that is bestowed upon,                <br />
+					All over, the lonely leafs,                   <br />
+					Surround me here all amidst,                  <br />
+					Asking was to extend my hands,                <br />
+				</p>
+				
+				<p>
 				Silence that is bestowed upon,                <br />
 				All over, the lonely leafs,                   <br />
 				Surround me here all amidst,                  <br />
@@ -24,7 +31,7 @@
 				Everything seems out of reach.                <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Silence of these trees,                       <br />
 				And, the whistling of the leaves,             <br />
 				Moving clouds & peaking beams,                <br />
@@ -39,7 +46,7 @@
 				To every silent streets.                      <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				The howling cabs,                             <br />
 				And, the men sniffing,                        <br />
 				Turn green and breathe,                       <br />
@@ -55,7 +62,7 @@
 				Deep and deep.                                <br />
 				</p>
 
-				<p class="indent4">
+				<p class="poem-indent">
 				Silent smiles,                                <br />
 				That hides pain 7 gives relief,               <br />
 				Caught in dilemma,                            <br />
