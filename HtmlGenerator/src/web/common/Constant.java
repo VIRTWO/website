@@ -12,7 +12,7 @@ public final class Constant {
 	public static final ChronologyMode CHRONOLOGY_MODE = ChronologyMode.YEARLY;
 
 	public static final int SNIPPET_LENGTH = 400;
-	public static final int DEFAULT_PARTITION_SIZE = 5;
+	public static final int DEFAULT_PARTITION_SIZE = 6;
 	public static final int DEFAULT_TOP_NAVIGATION_SIZE = 4;
 
 	public static final String WEBSITE_PROJECT_ROOT = "E:\\git\\website\\virtwo.com";

@@ -77,6 +77,10 @@ public class MetadataIndexer {
 				continue;
 			}
 			String key = mode.getDateFormat().format(m.getDate());
+			if(m.getDate().getTime() < 471188400000L) {
+				// befor birth
+				key = "Unknown";
+			}
 			indexMap.putIfAbsent(key, new Metadata());
 			indexMap.get(key).add(m);
 		}

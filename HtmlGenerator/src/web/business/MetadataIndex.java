@@ -44,7 +44,8 @@ public class MetadataIndex {
 					Date d2 = mode.getDateFormat().parse(o2.getName());
 					return d2.compareTo(d1);
 				} catch (ParseException e) {
-					throw new IllegalStateException("Failed to parse chronology name: " + e.getMessage());
+					// fall back to string comparision
+					return o1.getName().compareTo(o2.getName());
 				}
 			}
 		};
