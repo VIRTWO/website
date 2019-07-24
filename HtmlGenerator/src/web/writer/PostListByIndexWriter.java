@@ -4,6 +4,7 @@ import static web.common.Constant.DEFAULT_DATE_FORMAT;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -41,7 +42,7 @@ public class PostListByIndexWriter extends PostListWriter {
 		ListIterator<Metadata> iterator = metadataIndex.getMetadata().partition().listIterator();
 		int pageNumber = 0;
 		while (iterator.hasNext()) {
-			String itemTemplateHtml = FileUtils.readFileToString(new File(postListItemTemplateFile));
+			String itemTemplateHtml = FileUtils.readFileToString(new File(postListItemTemplateFile), Charset.defaultCharset());
 			Document postListDocument = Jsoup.parse(new File(postListTemplateFile), "UTF-8");
 
 			Element postListTitle = postListDocument.getElementById("post-list-title");

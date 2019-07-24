@@ -2,6 +2,7 @@ package web.writer;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -46,7 +47,7 @@ public class PostListByIndexTypeWriter extends PostListWriter {
 
 	private static String getItemHtml(String title, Map<String, String> links, String postListItemTemplateFile)
 			throws IOException {
-		String itemTemplateFileHtml = FileUtils.readFileToString(new File(postListItemTemplateFile));
+		String itemTemplateFileHtml = FileUtils.readFileToString(new File(postListItemTemplateFile), Charset.defaultCharset());
 		Document itemTemplateDocument = Jsoup.parseBodyFragment(itemTemplateFileHtml);
 		// there should be only 1 of these
 		Element element = itemTemplateDocument.getElementsByClass("post-list-category-title").get(0);

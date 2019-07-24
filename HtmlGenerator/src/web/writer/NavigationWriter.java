@@ -4,6 +4,7 @@ import static web.common.Constant.HTML_CHRONOLOGY_PAGE_NAME;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -29,7 +30,7 @@ public class NavigationWriter extends Writer {
 
 	public void write(String name, Map<String, List<String>> categoryByGroup, List<String> chronologies)
 			throws IOException {
-		String navTemplateHtml = FileUtils.readFileToString(new File(templateFile));
+		String navTemplateHtml = FileUtils.readFileToString(new File(templateFile), Charset.defaultCharset());
 		Document document = Jsoup.parseBodyFragment(navTemplateHtml);
 
 		Element element = document.getElementById("chronology-navigation");

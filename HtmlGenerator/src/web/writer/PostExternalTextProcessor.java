@@ -2,6 +2,7 @@ package web.writer;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Document;
@@ -24,7 +25,7 @@ class PostExternalTextProcessor implements PostDocumentProcessor {
 		Elements externalSources = document.getElementsByAttribute("data-external-text");
 		for (Element e : externalSources) {
 			String eFileName = e.attr("data-external-text");
-			String externalText = FileUtils.readFileToString(new File(inputDirectory + File.separator + eFileName));
+			String externalText = FileUtils.readFileToString(new File(inputDirectory + File.separator + eFileName), Charset.defaultCharset());
 			e.appendText(externalText);
 		}
 	}

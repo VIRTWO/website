@@ -4,6 +4,7 @@ import static web.common.Constant.DEFAULT_DATE_FORMAT;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -41,7 +42,7 @@ public class MetadataExtractor {
 	}
 
 	private static Metadatum extract(File file) throws IOException, ParseException {
-		String html = FileUtils.readFileToString(file);
+		String html = FileUtils.readFileToString(file, Charset.defaultCharset());
 		Document document = Jsoup.parseBodyFragment(html);
 
 		String id = file.getName();

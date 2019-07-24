@@ -15,7 +15,7 @@ public final class Constant {
 	public static final int DEFAULT_PARTITION_SIZE = 6;
 	public static final int DEFAULT_TOP_NAVIGATION_SIZE = 5;
 
-	public static final String WEBSITE_PROJECT_ROOT = "E:\\git\\website\\virtwo.com";
+	public static final String WEBSITE_PROJECT_ROOT = "/home/anujpr/p_git/website/virtwo.com";
 	
 	public static final String HTML_TEMPLATE_DIR = "htmlTemplate";
 	

@@ -2,6 +2,7 @@ package web.writer;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,7 +45,7 @@ public class PostWriter extends Writer {
 
 	private static void write(String fileName, String inputDirectory, String outputDirectory, String templateFile, List<PostDocumentProcessor> documentProcessors)
 			throws IOException {
-		String post = FileUtils.readFileToString(new File(inputDirectory + File.separator + fileName));
+		String post = FileUtils.readFileToString(new File(inputDirectory + File.separator + fileName), Charset.defaultCharset());
 		Document document = Jsoup.parse(new File(templateFile), "UTF-8");
 		Element placeHolder = document.getElementById("post");
 		placeHolder.html(post);
